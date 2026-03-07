@@ -45,7 +45,3 @@ I chose Gemini 2.0 Flash because it has built-in support for uploading documents
 - **Sprint 4:** Fixed bugs and tested with different documents
 
 ---
-
-## Ethical Reflection
-
-AI tools like this one are useful, but it's important to use them responsibly. One concern is that Gemini can sometimes give wrong answers even when it sounds confident, so users should double-check important information. Another issue is privacy — when you upload a document, it gets sent to Google's servers, so you should avoid uploading anything sensitive or personal. I added a system prompt that tells the model to only answer from the uploaded file, which helps reduce made-up responses. Overall, AI is a powerful tool, but users need to stay critical and not blindly trust everything it says.
