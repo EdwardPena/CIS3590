@@ -33,7 +33,7 @@ A simple Streamlit chatbot where you upload a PDF or TXT file and ask questions 
 
 ## Why I Chose This Model
 
-I chose Gemini 2.0 Flash because it has built-in support for uploading documents directly through the API, which made building a document Q&A chatbot much simpler. It's also free to use through Google AI Studio, which is great for a student project. The model handles reading and understanding PDFs and text files well, which is exactly what this app needs.
+Gemini 2.0 Flash was my choice of integration into my chatbot, as it offers built-in functionality for uploading documents directly through the API, thereby simplifying document Q&A chatbot development. Google AI Studio offers the ability to use Gemini 2.0 Flash free of charge; it is an excellent resource for student-based projects. The model does an excellent job at reading the content of PDF files and text documents; therefore, it was perfect for our application.
 
 ---
 
@@ -45,3 +45,7 @@ I chose Gemini 2.0 Flash because it has built-in support for uploading documents
 - **Sprint 4:** Fixed bugs and tested with different documents
 
 ---
+
+## Ethical Reflection
+
+Using AI tools is valuable, but care must be taken to use the tools properly. One of the concerns with Gemini is that some of the answers may be incorrect, especially in instances in which the model appears to be very confident in the response, so it is recommended that you confirm all important information. Additionally, there is the issue of privacy because any files uploaded go to Google's servers, so avoid uploading anything personal or confidential. I added a prompt telling the model to only respond using the uploaded file, which reduces answers that are made up or fabricated. As with any tool, AI has great potential, but users must remain critical about their use and not accept answers quite blindly.
